@@ -3,6 +3,6 @@ plugins {
 }
 
 dependencies {
-    api project(':jam-spi')
-    api "io.github.java-diff-utils:java-diff-utils:${javaDiffUtilsVersion}"
+    api(project(':jam-spi'))
+    api(libs.java.diff)
 }
